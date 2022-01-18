@@ -17,11 +17,12 @@ var bomb = Math.floor(Math.random() * 9)
 
 const treasure = (c) => {
   if (c === mj) {
-    document.getElementById(c).innerHTML = '<img src="jordan.jpg"/>'
+    document.getElementById(c).innerHTML = "&#10060"
     alert("You win!")
+    document.getElementById('board').innerHTML = '<img src="jordan.jpg" height="500px" width="800px"/>'
     // setTimeout(() => { window.location.reload(); }, 575); <------- reloads after message pops up
   } else if (c === bomb) {
-    document.getElementById(c).innerHTML = '<img src="lebron.png"/>'
+    document.getElementById("board").innerHTML = '<img src="lebron.png" height="500px" width="800px"/>'
     alert("You lose!")
   } else {
     document.getElementById(c).innerHTML = "&#10060"
