@@ -23,7 +23,7 @@ const treasure = (c) => {
     // setTimeout(() => { window.location.reload(); }, 575); <------- reloads after message pops up
   } else if (c === bomb) {
     document.getElementById("board").innerHTML = '<img src="lebron.jpg" height="400px" width="700px"/>'
-    alert("You lose!")
+    alert("You lose! Try again.")
   } else {
     document.getElementById(c).innerHTML = "&#10060"
   }
