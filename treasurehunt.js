@@ -19,10 +19,10 @@ const treasure = (c) => {
   if (c === mj) {
     document.getElementById(c).innerHTML = "&#10060"
     alert("You win!")
-    document.getElementById('board').innerHTML = '<img src="jordan.jpg" height="500px" width="800px"/>'
+    document.getElementById('board').innerHTML = '<img src="jordan.jpg" height="400px" width="700px"/>'
     // setTimeout(() => { window.location.reload(); }, 575); <------- reloads after message pops up
   } else if (c === bomb) {
-    document.getElementById("board").innerHTML = '<img src="lebron.png" height="500px" width="800px"/>'
+    document.getElementById("board").innerHTML = '<img src="lebron.jpg" height="400px" width="700px"/>'
     alert("You lose!")
   } else {
     document.getElementById(c).innerHTML = "&#10060"
