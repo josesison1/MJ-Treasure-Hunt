@@ -38,7 +38,7 @@ const treasure = (id) => {
     alert("You lose!")
     // document.getElementById(lose).innerHTML = '<img src="skull.png"/>'
   } else {
-     document.getElementById(id).innerHTML = "&#x1f332"
+     document.getElementById(id).innerHTML = "&#10060"
   }
 }
 //
