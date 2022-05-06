@@ -7,3 +7,4 @@ This treasure hunt application was a project done during my time at jumpstart @ 
 - JavaScript
 - HTML
 - CSS 
+- VS Code
